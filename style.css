@@ -1,0 +1,12 @@
+#main-container {
+    width: 60vw;
+}
+
+#game-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    place-items: center;
+    background-color: yellow;;
+}
